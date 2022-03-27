@@ -61,9 +61,8 @@ No test specified as of yet.
 
 ## License
 
-![License (ISC](https://img.shields.io/badge/License-ISC_1.0-brightgreen.svg) <br />
-License Name: ISC <br />
-License Link: [ISC](https://opensource.org/licenses/ISC "License Link")
+![License (ISC](https://img.shields.io/badge/License-ISC-brightgreen.svg) <br />
+This application utilises the [ISC License](https://opensource.org/licenses/ISC "License Link")
 
 ## Screenshot
 
@@ -79,7 +78,7 @@ _Heroku Link_
 
 ## Questions
 
-If you have any additional questions then please feel free to get in touch via my github or email details mentioned below. Thank you.
+If you have any additional questions then please feel free to get in touch via my github or email details linked below. Thank you.
 
 Github - https://github.com/riz1ash786 <br />
 Email - riz1ash786@gmail.com
