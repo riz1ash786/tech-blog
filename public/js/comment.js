@@ -8,8 +8,7 @@ async function commentFormHandler(event) {
   const post_id = window.location.toString().split("/")[
     window.location.toString().split("/").length - 1
   ];
-
-  // if there is a comment -- preventing from users submitting empty comments
+  // post comment with id else prevent empty comments being posted
   if (comment_text) {
     const response = await fetch("/api/comments", {
       method: "POST",
