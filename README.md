@@ -41,10 +41,12 @@ file: .env
 ```
 DB_USER=root
 DB_PW=
-DB_NAME=techblog_db
+DB_NAME=my_tech_blog_db
 ```
 
 ## Usage
+
+Enter `node server.js` in terminal to start the application. Once a port has been presented in terminal then type `localhost:3306` into browser to display the application locally. Alternatively, if you wish to deploy this application on Heroku then please click here on the [Heroku Link](https://rocky-cliffs-51316.herokuapp.com/ "Heroku Link")
 
 <!-- - To connect to the database run` mysql -u root -p`
 - Then source the `schema.sql`
