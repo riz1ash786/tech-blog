@@ -68,7 +68,7 @@ This application utilises the [ISC License](https://opensource.org/licenses/ISC 
 
 ## Deployed Application
 
-[Tech-Blog Heroku Link](https://github.com/riz1ash786/tech-blog "Heroku Link")
+[Tech-Blog Heroku Link](https://rocky-cliffs-51316.herokuapp.com/ "Heroku Link")
 
 ## GitHub Repository
 
