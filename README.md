@@ -46,7 +46,7 @@ DB_NAME=my_tech_blog_db
 
 ## Usage
 
-Enter `node server.js` in terminal to start the application. Once a port has been presented in terminal then type `localhost:3001` into browser to display the application locally. Alternatively, if you wish to deploy this application on Heroku then please click here on the [Heroku Link](https://rocky-cliffs-51316.herokuapp.com/ "Heroku Link")
+Enter `node server.js` in terminal to start the application. Once a port has been presented in terminal then type `localhost:3001` into browser to display the application locally. Alternatively, if you wish to deploy this application on Heroku then please click here on the [Heroku Link](https://tech-blog-rizwan.herokuapp.com/ "Heroku Link")
 
 <!-- - To connect to the database run` mysql -u root -p`
 - Then source the `schema.sql`
@@ -70,7 +70,7 @@ This application utilises the [ISC License](https://opensource.org/licenses/ISC 
 
 ## Deployed Application
 
-[Tech-Blog Heroku Link](https://rocky-cliffs-51316.herokuapp.com/ "Heroku Link")
+[Tech-Blog Heroku Link](https://tech-blog-rizwan.herokuapp.com/ "Heroku Link")
 
 ## GitHub Repository
 
