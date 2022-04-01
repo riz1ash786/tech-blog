@@ -27,15 +27,9 @@ User.init(
         len: [8],
       },
     },
-    // dateCreated: {
-    //   type: DataTypes.DATEONLY,
-    //   allowNull: false,
-    //   defaultValue: DataTypes.NOW,
-    // },
   },
 
-  // Hooks are automatic methods that run during various phases of the Pass Model lifecycle
-  // In this case, before a Pass is created or updated, we will automatically hash their password
+  // hash password using hooks functionality
   {
     hooks: {
       beforeCreate: async (newUserData) => {
