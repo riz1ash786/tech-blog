@@ -11,6 +11,7 @@ const loginFormHandler = async function (event) {
       password: passwordEl.value,
     }),
     headers: { "Content-Type": "application/json" },
+    redirect: "follow",
   });
 
   if (response.ok) {
