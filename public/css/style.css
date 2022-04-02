@@ -39,7 +39,7 @@ header,
 }
 
 .logo:hover {
-  color: black;
+  color: orangered;
   text-decoration: none;
   opacity: 0.7;
   transition: 0.5s ease-in-out;
@@ -199,4 +199,5 @@ header,
 footer {
   margin-top: 60px;
   font-size: 1.4em;
+  text-align: center;
 }
