@@ -47,7 +47,7 @@ DB_PASSWORD=
 
 ## Usage
 
-Enter `node server.js` in terminal to start the application. Once a port has been presented in terminal then type `localhost:3001` into browser to display the application locally. Alternatively, if you wish to deploy this application on Heroku then please click here on the [Heroku Link](https://tech-blog-rizwan.herokuapp.com/ "Heroku Link")
+Enter `node server.js` in terminal to start the application. Once a port has been presented in terminal then type `localhost:3001` into browser to display the application locally. Alternatively, if you wish to deploy this application on Heroku then please click here on the [Heroku Link](https://my-tech-blog-rizwan.herokuapp.com/ "Heroku Link")
 
 ## Contributing
 
@@ -68,7 +68,7 @@ This application utilises the [ISC License](https://opensource.org/licenses/ISC 
 
 ## Deployed Application
 
-[Tech-Blog Heroku Link](https://tech-blog-rizwan.herokuapp.com/ "Heroku Link")
+[Tech-Blog Heroku Link](https://my-tech-blog-rizwan.herokuapp.com/ "Heroku Link")
 
 ## GitHub Repository
 
