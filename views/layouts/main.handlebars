@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="RA">
-  <title>Home | Tech Blog</title>
-  <link href="/images/favicon.ico" rel="shortcut icon">
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <title>My Tech Blog</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
-<body class="flex-column min-100-vh">
-  <nav class="navbar">
-    <ul>
-      <li class="li-inline nav-item"><a href="/">Home</a></li>
-      <li class="li-inline nav-item"><a href="/dashboard">Dashboard</a></li>
-      <!-- render login link-->
-      {{#unless loggedIn}}
-      <li class="li-inline nav-item"><a href="/login">Login</a></li>
-      {{/unless}}
-      <li class="li-inline nav-item"><a href="#" id="logout-link">Logout</a></li>
-    </ul>
-  </nav>
+<body>
+  <div class="container wrapper">
+<header class="row">
+  <h1><a class="logo" href="/">My Tech Blog</a></h1>
+      <nav>
+        <ul class="navbar">
+              <li><a class="link" href="/">Home</a></li>
+               <li><a class="link" href="/dashboard">Dashboard</a></li>
+              {{#if loggedIn}}
+               <li><a class="link" href="/" id="logout">Logout</a></li>
+              {{else}}
+               <li><a class="link" href="/login">Login</a></li>
+              {{/if}}
+        </ul>
+      </nav>
 
-  <header class="hero">
-    <h1 class="app-title"><a href="/">My Tech Blog</a></h1>
-  </header>
+    
+</header>
 
-  <main class="col-auto">
-    {{{body}}}
-  </main>
+<main>
+  {{{ body }}}
+</main>
 
-  <footer class="flex-row justify-center">
-    &copy; My Tech Blog
-  </footer>
+<footer class="footer">
+    <div class="row">
+        <p>
+          My Tech Blog by <a href="https://github.com/riz1ash786"> Rizwan Ashraf</a>
+        </p>
+    </div>
+</footer>
+
+    {{#if loggedIn}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="/js/logout.js"></script>
+    {{/if}}
+</div>
 </body>
 
 </html>
-{{#if loggedIn}}
-<script src="/js/logout.js"></script>
-{{/if}}
