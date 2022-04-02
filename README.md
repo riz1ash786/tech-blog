@@ -13,8 +13,6 @@
 - [GitHub repository](#github-repository)
 - [Questions](#questions)
 
-<!-- - [Demonstration Links](#demonstration-links) -->
-
 ## Description
 
 I have been tasked to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. I’ll build this site completely from scratch and deploy it to Heroku. My app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
@@ -39,19 +37,14 @@ You will also need to place a .env file in the root directory of the project, in
 file: .env
 
 ```
-DB_USER=root
-DB_PW=
 DB_NAME=my_tech_blog_db
+DB_USER=root
+DB_PASSWORD=
 ```
 
 ## Usage
 
 Enter `node server.js` in terminal to start the application. Once a port has been presented in terminal then type `localhost:3001` into browser to display the application locally. Alternatively, if you wish to deploy this application on Heroku then please click here on the [Heroku Link](https://tech-blog-rizwan.herokuapp.com/ "Heroku Link")
-
-<!-- - To connect to the database run` mysql -u root -p`
-- Then source the `schema.sql`
-- To seed the file run `npm run seed`
-- Finally, to connect to the server run `npm start` -->
 
 ## Contributing
 
@@ -68,13 +61,13 @@ This application utilises the [ISC License](https://opensource.org/licenses/ISC 
 
 ## Screenshot
 
+![my tech blog](./assets/images/my-tech-blog.png)
+
 ## Deployed Application
 
 [Tech-Blog Heroku Link](https://tech-blog-rizwan.herokuapp.com/ "Heroku Link")
 
 ## GitHub Repository
-
-<!-- https://github.com/riz1ash786/tech-blog -->
 
 [Tech-Blog Repository](https://github.com/riz1ash786/tech-blog "Repository Link")
 
@@ -84,9 +77,3 @@ If you have any additional questions then please feel free to get in touch via m
 
 Github - https://github.com/riz1ash786 <br />
 Email - riz1ash786@gmail.com
-
-<!-- ## Demonstration Links
-
-[Terminal Demo Video](https://drive.google.com/file/d/1D3Bu132hNN_uVuWsKMOw-5BewqF7ZA37/view?usp=sharing "Terminal Demo Link")
-
-[Insomnia Demo Video](https://drive.google.com/file/d/1lVH3U-wq6OS73NdCWPOA1ye3nHL1hOyO/view?usp=sharing "Insomnia Demo Link") -->
