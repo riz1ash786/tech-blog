@@ -1,25 +1,23 @@
-<div class="card">
-  <h2 class="card-header">SIGN UP</h2>
+<section class="single-post-container">
+{{> post-info post}}
 
-  <form class="card-body signup-form">
-
-    <div class="form-group">
-      <label class="form-label">Username:</label>
-      <input class="form-input" type="text" id="username-input-signup" />
+{{#if loggedIn}}
+<div class="comment-container">
+    <h3 class="card-header"></h3>
+    <form class="card-body comment-form" id="comment-form">
+    <div class="form-row">
+        <label class="form-label">Comment</label>
+        <input id="comment" name="comment-body" class="form-input  form-control" />
     </div>
-
-    <div class="form-group">
-      <label class="form-label">Password:</label>
-      <input class="form-input" type="password" id="password-input-signup" />
-    </div>
-
-    <div class="form-group">
-      <button class="btn btn-primary" type="submit">SIGN UP</button>
-    </div>
-
-  </form>
-      <br>
-    <a href="/login">Login Instead</a>
-
+        <button type="submit" class="btn">Submit</button>
+    </form>
 </div>
-<script src="/js/signup.js"></script>
+{{/if}}
+
+{{> comments post.comments}}
+
+</section>
+
+{{#if loggedIn}}
+<script src="/js/comment.js"></script>
+{{/if}}
