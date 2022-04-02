@@ -30,6 +30,9 @@ To install the required dependencies and set up the application, run:
 
 ```
 $ npm i
+$ source schema.sql
+$ npm run seed
+$ node server.js
 ```
 
 You will also need to place a .env file in the root directory of the project, in order to connect to your MySQL database. Here's a specific example:
