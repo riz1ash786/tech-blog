@@ -2,18 +2,18 @@ const { Post } = require("../models");
 
 const postdata = [
   {
-    postTitle: "Beautiful Day",
-    postContent: "This is a beautiful day",
+    postTitle: "Race weekend",
+    postContent: "What an exciting weekend!",
     userId: 1,
   },
   {
-    postTitle: "Fields",
-    postContent: "This is the greenest field",
+    postTitle: "Family",
+    postContent: "The sun is shining so let's spend time together as a family",
     userId: 2,
   },
   {
-    postTitle: "Do you hear it?",
-    postContent: "This is very musical, listen!",
+    postTitle: "New car",
+    postContent: "I'm so happy I finally got my new car!",
     userId: 3,
   },
 ];
