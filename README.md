@@ -64,7 +64,13 @@ This application utilises the [ISC License](https://opensource.org/licenses/ISC 
 
 ## Screenshot
 
-![my tech blog](./assets/images/my-tech-blog.png)
+![Homepage](assets/images/homepage.png)
+
+![Login](assets/images/login.png)
+
+![Create Post](assets/images/create-post.png)
+
+![Edit-Delete](assets/images/edit-delete-post.png)
 
 ## Deployed Application
 
