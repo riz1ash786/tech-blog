@@ -1,15 +1,24 @@
-<h2 class="title pb-4">Log In</h2>
-  <form id="login-form" class="card-body">
-    <div class="form-row">
-      <label class="form-label" for="username-login">Username</label>
-      <input  id="username-login" type="text" autofocus="true" class="form-input form-control"/>
+<div class="row">
+  <form class="col s12" id="login-form">
+      <div class="row">
+    <div class="row">
+        <div class="input-field col s12">
+          <input id="username-login" type="text" >
+          <label for="icon_prefix">Username</label>
+        </div>
     </div>
-    <div class="form-row mb-3">
-      <label class="form-label" for="password-login">Password</label>
-      <input id="password-login" type="password" autofocus="true" class="form-input form-control"/>
-    </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password-login" type="password">
+          <label for="password">Password</label>
+        </div>
+      </div>
+   
       <button type="submit" class="btn">Login</button>
-      <a class="btn login-link" href="/signup">Sign Up</a>
-  </form>
+      <a class="signup" href="/signup">Sign up instead</a>
+
+    </form>
+  </div>
     
-<script src="/js/login.js"></script>
+<script src="/javascript/login.js"></script>

@@ -1,51 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Tech Blog</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/style.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <title>MVC Tech Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
-  <div class="container wrapper">
-<header class="row">
-  <h1><a class="logo" href="/">My Tech Blog</a></h1>
-      <nav>
-        <ul class="navbar">
-              <li><a class="link" href="/">Home</a></li>
-               <li><a class="link" href="/dashboard">Dashboard</a></li>
-              {{#if loggedIn}}
-               <li><a class="link" href="/" id="logout">Logout</a></li>
-              {{else}}
-               <li><a class="link" href="/login">Login</a></li>
-              {{/if}}
-        </ul>
-      </nav>
-
-    
-</header>
-
-<main>
-  {{{ body }}}
-</main>
-
-<footer class="footer">
-    <div class="row">
-        <p>
-          My Tech Blog by <a href="https://github.com/riz1ash786"> Rizwan Ashraf</a>
-        </p>
+    <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="title">The Tech Blog</a>
+      <ul id="nav-mobile" class="right navbar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/dashboard">Dashboard</a></li>
+        {{#if loggedIn}}
+        <li><a href="/" id="logout">Logout</a></li>
+        {{else}}
+        <li><a href="/login" id="login">Login</a></li>
+        {{/if}}
+      </ul>
     </div>
-</footer>
+  </nav>
+
+    <main>
+      {{{ body }}}
+    </main>
+
 
     {{#if loggedIn}}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-    <script src="/js/logout.js"></script>
+    <script src="/javascript/logout.js"></script>
     {{/if}}
-</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>

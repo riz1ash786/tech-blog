@@ -1,0 +1,17 @@
+[
+    {
+    "title": "Adobe releases open source toolkit to counter visual misinformation",
+    "content": "The company’s central aim is to mitigate the spread of visual misinformation, but the system could also be a boon for content creators keen to keep their names attached to their work",
+    "user_id": 1
+    },
+    {
+    "title": "Cloudflare heads effort to make JavaScript environments interoperable",
+    "content": "Cloudflare today announced that it’s collaborating with Deno, the development company behind the eponymous Deno runtime, and individual contributors of the Node.js open source project to create standards that enable developers to write code between Deno, Node.js and Cloudflare’s serverless app platform, Cloudflare Workers. Cloudflare co-founder and CEO Matthew Prince says that the effort will allow the transfer of apps between Workers, Deno and Node.js without the need for a rewrite, a feat that’s presently beyond reach",
+    "user_id": 2
+    },
+    {
+    "title": "Hasura raises $25 million Series B and adds MySQL support to its GraphQL service",
+    "content": "Hasura, a service that provides developers with an open-source engine that provides them a GraphQL API to access their databases, today announced that it has raised a $25 million Series B round led by Lightspeed Venture Partners. Previous investors Vertex Ventures US, Nexus Venture Partners, Strive VC and SAP.iO Fund also participated in this round.",
+    "user_id": 3
+    }
+]

@@ -1,23 +1,25 @@
-<section class="single-post-container">
-{{> post-info post}}
-
-{{#if loggedIn}}
-<div class="comment-container">
-    <h3 class="card-header"></h3>
-    <form class="card-body comment-form" id="comment-form">
-    <div class="form-row">
-        <label class="form-label">Comment</label>
-        <input id="comment" name="comment-body" class="form-input  form-control" />
+<div class="row">
+  <form class="col s12" id="signup-form">
+      <div class="row">
+    <div class="row">
+        <div class="input-field col s12">
+          <input id="username-signup" type="text" >
+          <label for="icon_prefix">Username</label>
+        </div>
     </div>
-        <button type="submit" class="btn">Submit</button>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password-signup" type="password">
+          <label for="password">Password</label>
+        </div>
+      </div>
+   
+      <button type="submit" class="btn">Login</button>
+      <a class="signup" href="/login">Log in instead</a>
+
     </form>
-</div>
-{{/if}}
+  </div>
+    
 
-{{> comments post.comments}}
-
-</section>
-
-{{#if loggedIn}}
-<script src="/js/comment.js"></script>
-{{/if}}
+<script src="/javascript/signup.js"></script>
