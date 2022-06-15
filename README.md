@@ -40,7 +40,7 @@ You will also need to place a .env file in the root directory of the project, in
 file: .env
 
 ```
-DB_NAME=my_tech_blog_db
+DB_NAME=tech_db
 DB_USER=root
 DB_PASSWORD=
 ```
