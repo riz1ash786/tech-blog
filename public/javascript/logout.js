@@ -1,10 +1,10 @@
 async function logout() {
-    // /api/users/logout route , logs user out
+    // /api/users/logout route , this will log user out
     const response = await fetch('/api/users/logout', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' }
     });
-    //goes to homepage
+    //this will go to homepage
     if (response.ok) {
       console.log('Logged Out');
       document.location.replace('/');

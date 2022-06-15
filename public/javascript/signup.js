@@ -12,7 +12,7 @@ async function signupFormHandler(event) {
             }),
             headers: { 'Content-Type': 'application/json' }
         });
-        //goes to dahboard after sign up
+        //this will go to dahboard after sign up
         if (response.ok) {
             console.log('Signed Up');
             document.location.replace('/dashboard');
@@ -21,5 +21,5 @@ async function signupFormHandler(event) {
         }
     }
 }
-//event listener for sign up form
+//event listener for the sign up form
 document.querySelector('#signup-form').addEventListener('submit', signupFormHandler);
