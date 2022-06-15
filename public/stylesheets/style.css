@@ -41,10 +41,10 @@ p {
  }
                 
 .btn:hover {
-    background-color:#ffffff;
+    background-color:#7700ff9d;
     transform: translate(0, 0);
     box-shadow: 2px 2px var(--dark);
-    color:#6506d1;
+    color:#ffffff;
 }
 
 .signup{
