@@ -9,6 +9,7 @@
 - [Tests](#tests)
 - [License](#license)
 - [Screenshot](#screenshot)
+- [Demonstration](#demonstration)
 - [Deployed application](#deployed-application)
 - [GitHub repository](#github-repository)
 - [Questions](#questions)
@@ -71,6 +72,10 @@ This application utilises the [ISC License](https://opensource.org/licenses/ISC 
 ![Create Post](assets/images/create-post.png)
 
 ![Edit-Delete](assets/images/edit-delete-post.png)
+
+## Demonstration
+
+[Heroku Demo Video](https://drive.google.com/file/d/1nJgxm1AoNhzgan5TNO21paawBq8BYh94/view?usp=sharing "Heroku Demo Video")
 
 ## Deployed Application
 
